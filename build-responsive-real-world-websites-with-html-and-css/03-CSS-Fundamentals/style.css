@@ -99,6 +99,29 @@ li:last-child {
   color: red;
 } */
 
-article p:last-child {
+/* Misconception this won't work!*/
+article p:first-child {
   color: red;
+}
+
+/* Styling links */
+a:link {
+  color: #1095ad;
+  text-decoration: none;
+}
+
+a:visited {
+  /* color: #777; */
+  color: #1095ad;
+}
+
+a:hover {
+  color: orange;
+  font-weight: bold;
+  text-decoration: underline dotted orange;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
 }
