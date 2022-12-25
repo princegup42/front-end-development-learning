@@ -30,7 +30,7 @@
         <header>
             <h2>The Basic Language of the Web: HTML</h2>
             <img src="img/laura-jones.jpg" alt="author image" width="50px" height="50px">
-            <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+            <p id="author">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
             <img src="img/post-img.jpg" alt="HTML code on a screen" width="500" height="200">
         </header>
         <p>
@@ -80,32 +80,32 @@
     </article>
     <aside>
         <h4>Related posts</h4>
-        <ul>
+        <ul class="related">
             <li>
                 <img src="img/related-1.jpg" alt="related-1" width="75px" height="75px">
                 <a href="#">
                     How to Learn Web Development
                 </a>
-                <P>By Jonas Schmedtmann</P>
+                <P class="related-author">By Jonas Schmedtmann</P>
             </li>
             <li>
                 <img src="img/related-2.jpg" alt="related-2" width="75px" height="75px">
                 <a href="#">
                     The Unknown Power of CSS
                 </a>
-                <P>By Jim Dillon</P>
+                <P class="related-author">By Jim Dillon</P>
             </li>
             <li>
                 <img src="img/related-3.jpg" alt="related-3" width="75px" height="75px">
                 <a href="#">
                     Why JavaScript is Awesome
                 </a>
-                <P>By Madtilda</P>
+                <P class="related-author">By Madtilda</P>
             </li>
         </ul>
     </aside>
     <footer>
-        <p>Copyright &copy; 2023 by the sumit Gupta</p>
+        <p id="copyright">Copyright &copy; 2023 by the sumit Gupta</p>
     </footer>
 </body>
 
