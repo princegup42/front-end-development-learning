@@ -125,3 +125,17 @@ a:active {
   background-color: black;
   font-style: italic;
 }
+
+/* Resolvinf conflicts */
+/* 
+#copyright {
+  color: red;
+}
+
+.copyright {
+  color: blue;
+}
+
+footer p {
+  color: greenyellow;
+} */
