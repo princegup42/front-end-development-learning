@@ -1,0 +1,36 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+article {
+  border: 5px solid black;
+}
+
+.product-title {
+  text-align: center;
+  background-color: #f7f7f7;
+  text-transform: uppercase;
+}
+
+.price strong {
+  font-weight: 900;
+}
+
+.shipping {
+  text-transform: uppercase;
+  font-size: smaller;
+  font-weight: bold;
+  color: #777;
+}
+
+.more-info,
+a:link {
+  color: black;
+}
+
+.more-info,
+a:hover {
+  color: black;
+  text-decoration: none;
+}
