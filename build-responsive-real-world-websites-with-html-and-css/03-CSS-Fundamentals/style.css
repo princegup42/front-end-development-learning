@@ -1,11 +1,11 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
+* {
+  /* border-top: 10px solid #1095ad; */
+}
+
+body {
+  color: #444;
   font-family: sans-serif;
-  color: #444444;
+  border-top: 10px solid #1095ad;
 }
 
 h1,
@@ -139,3 +139,16 @@ a:active {
 footer p {
   color: greenyellow;
 } */
+
+/* nav a:link {
+  font-size: 18px;
+} */
+
+/* nav a:link,
+nav p {
+  font-size: 18px;
+} */
+
+nav {
+  font-size: 18px;
+}
