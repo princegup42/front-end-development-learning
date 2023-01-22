@@ -1,13 +1,15 @@
 * {
-  /* border-top: 10px solid #1095ad; */
+  /* border-top: 10px solid #1098ad; */
   margin: 0;
   padding: 0;
 }
 
+/* PAGE SECTIONS */
 body {
   color: #444;
   font-family: sans-serif;
-  border-top: 10px solid #1095ad;
+
+  border-top: 10px solid #1098ad;
   position: relative;
 }
 
@@ -16,7 +18,6 @@ body {
   /* margin-left: auto;
   margin-right: auto; */
   margin: 0 auto;
-  /* position: relative; */
 }
 
 .main-header {
@@ -31,7 +32,7 @@ body {
 
 nav {
   font-size: 18px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 article {
@@ -45,16 +46,19 @@ article {
 
 aside {
   background-color: #f7f7f7;
-  border-top: 5px solid #1095ad;
-  border-bottom: 5px solid #1095ad;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  /* padding-top: 50px;
+  padding-bottom: 50px; */
   padding: 50px 0;
   width: 500px;
 }
 
+/* SMALLER ELEMENTS */
 h1,
 h2,
 h3 {
-  color: #1095ad;
+  color: #1098ad;
 }
 
 h1 {
@@ -95,6 +99,7 @@ ol {
 li {
   font-size: 20px;
   margin-bottom: 10px;
+  /* display: inline; */
 }
 
 li:last-child {
@@ -123,17 +128,20 @@ li:last-child {
   font-weight: bold;
 }
 
-/* aside > ul > li {
+/* ul {
   list-style: none;
 } */
 
-.related li {
+.related {
   list-style: none;
 }
 
-/* 
 body {
-  background-color: blueviolet;
+  /* background-color: orangered; */
+}
+
+/* .first-li {
+  font-weight: bold;
 } */
 
 li:first-child {
@@ -144,39 +152,39 @@ li:last-child {
   font-style: italic;
 }
 
-/* li:nth-child(even) {
-  color: red;
-} */
+li:nth-child(even) {
+  /* color: red; */
+}
 
-/* Misconception this won't work!*/
+/* Misconception: this won't work! */
 article p:first-child {
   color: red;
 }
 
 /* Styling links */
 a:link {
-  color: #1095ad;
+  color: #1098ad;
   text-decoration: none;
 }
 
 a:visited {
   /* color: #777; */
-  color: #1095ad;
+  color: #1098ad;
 }
 
 a:hover {
-  color: orange;
+  color: orangered;
   font-weight: bold;
-  text-decoration: underline dotted orange;
+  text-decoration: underline orangered;
 }
 
 a:active {
   background-color: black;
   font-style: italic;
 }
+/* LVHA */
 
-.post-image {
-  /* width: 300px; */
+.post-img {
   width: 100%;
   height: auto;
 }
@@ -185,7 +193,9 @@ nav a:link {
   /* background-color: orangered;
   margin: 20px;
   padding: 20px;
+
   display: block; */
+
   margin-right: 30px;
   margin-top: 10px;
   display: inline-block;
@@ -199,6 +209,7 @@ button {
   font-size: 22px;
   padding: 20px;
   cursor: pointer;
+
   position: absolute;
   /* top: 50px;
   left: 50px; */
@@ -211,15 +222,8 @@ h1::first-letter {
   margin-right: 5px;
 }
 
-/* h2::first-letter{
-  font-size: 80px;
-} */
-
-/* p::first-line{
-  color: red;
-} */
 h3 + p::first-line {
-  color: red;
+  /* color: red; */
 }
 
 h2 {
@@ -227,10 +231,10 @@ h2 {
   position: relative;
 }
 
-h2::after {
+h2::before {
   content: "TOP";
   background-color: #ffe70e;
-  color: #000;
+  color: #444;
   font-size: 16px;
   font-weight: bold;
   display: inline-block;
@@ -240,9 +244,8 @@ h2::after {
   right: -25px;
 }
 
-/* Resolvinf conflicts */
-/* 
-#copyright {
+/* Resolving conflicts */
+/* #copyright {
   color: red;
 }
 
@@ -250,15 +253,37 @@ h2::after {
   color: blue;
 }
 
-footer p {
-  color: greenyellow;
-} */
+.text {
+  color: yellow;
+}
 
-/* nav a:link {
-  font-size: 18px;
+footer p {
+  color: green !important;
 } */
 
 /* nav a:link,
 nav p {
   font-size: 18px;
 } */
+
+/* Floats */
+
+.author-img {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.author {
+  /* padding-left: 80px; */
+  margin-top: 10px;
+  float: left;
+  margin-left: 20px;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
