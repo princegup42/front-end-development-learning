@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Encode Sans SC", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  font-size: 2rem;
+}
+
+.item-1 {
+  background-color: #d3c6b8;
+}
+
+.item-2 {
+  background-color: #88847f;
+}
+
+.item-3 {
+  background-color: #374840;
+}
+
+.item-4 {
+  background-color: #376a54;
+}
+
+.item-5 {
+  background-color: #d6d4d3;
+}
+
+.item-6 {
+  background-color: #516464;
+}
+
+.item-7 {
+  background-color: #cfdbdb;
+}
+
+.item-8 {
+  background-color: #b09c98;
+}
+
+.item-9 {
+  background-color: #ddc5af;
+}
+
+.container {
+  width: 1200px;
+  background: #efedec;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 200px 200px 200px;
+  /* column-gap: 30px;
+  row-gap: 30px; */
+  gap: 30px;
+}
