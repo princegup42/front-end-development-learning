@@ -61,11 +61,14 @@ body {
 
 .container {
   width: 1200px;
-  background: #efedec;
+  background: #111111;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   display: grid;
-  grid-template-columns: 400px 400px 400px;
-  grid-template-rows: 200px 200px 200px;
+  /* grid-template-columns: repeat(3, 400px); */
+  /* grid-template-columns: repeat(2, 400px) 400px; */
+  /* grid-template-columns: repeat(2, 1fr) 1fr; */
+  grid-template-columns: 1fr 2fr 3fr;
+  grid-template-rows: repeat(3, 200px);
   /* column-gap: 30px;
   row-gap: 30px; */
   gap: 30px;
